@@ -375,24 +375,10 @@ section .button button:hover{
 }
 
 /* Footer CSS */
-footer{
-  background: #495178;
-  padding: 15px 0;
-  text-align: center;
-  font-family: 'Poppins', sans-serif;
-}
-footer .text span{
-  font-size: 17px;
-  font-weight: 400;
-  color: #fff;
-}
-footer .text span a{
-  font-weight: 500;
-  color: #FFF;
-}
-footer .text span a:hover{
-  text-decoration: underline;
-}
+ 
+
+
+
 
  /* next footerr  */
  .footerbox {
@@ -407,7 +393,25 @@ footer .text span a:hover{
   display: flex;
   gap: 10px;
   
+}footer{
+  background: #495178;
+  padding: 15px 0;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
 }
+footer .text-footer span{
+  font-size: 17px;
+  font-weight: 400;
+  color: #fff;
+}
+footer .text-footer span a{
+  font-weight: 500;
+  color: #FFF;
+}
+footer .text span a:hover{
+  text-decoration: underline;
+}
+ 
 
 .media-icons-footer a {
   text-decoration: none;
