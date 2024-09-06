@@ -393,6 +393,53 @@ footer .text span a{
 footer .text span a:hover{
   text-decoration: underline;
 }
+
+ /* next footerr  */
+ .footerbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  
+}
+
+.media-icons-footer {
+  display: flex;
+  gap: 10px;
+  
+}
+
+.media-icons-footer a {
+  text-decoration: none;
+  color: #f0eeee; /* Change as needed */
+  font-size: 18px;
+  margin-left: 40px;
+}
+
+.text-footer {
+  text-align: center; 
+  flex-grow: 1;
+}
+
+.text-footer span {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .footerbox {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .media-icons-footer {
+    margin-bottom: 10px;
+  }
+
+  .media-icons-footer a {
+    margin: 0 5px; /* Adds space between icons */
+  }
+}
+
 /* Scroll TO Top Button CSS */
 .scroll-button a{
   position: fixed;
