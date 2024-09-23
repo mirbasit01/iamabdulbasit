@@ -567,3 +567,37 @@ footer .text span a:hover{
     color: #495178;
   }
 }
+
+
+/*  My project section start */
+
+.project-1st {
+  display: flex; /* Make the container a flex container */
+  justify-content: center; /* Center the items horizontally */
+  align-items: center; /* Center the items vertically */
+  gap: 20px; /* Add some space between the images */
+  margin-top: 30px;
+}
+
+.project-image img {
+  max-width: 100%; /* Ensure images are responsive */
+  height: auto;
+  display: block; /* Remove any inline spacing */
+  border-radius: 24px;
+  /* filter: grayscale(0.75); */
+}
+.decimg p{
+  line-height: 30px;
+letter-spacing: 1px;
+margin-top: 25px;
+}
+
+
+@media (max-width: 500px){
+  .project-1st {
+    
+    flex-direction: column;
+  }
+ 
+}
+
